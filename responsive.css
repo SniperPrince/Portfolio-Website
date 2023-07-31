@@ -1,0 +1,112 @@
+@media screen and (max-width:820px) {
+    .secondsection {
+        height: 82vh;
+    }
+
+    #skills {
+        height: 82vh;
+    }
+
+}
+
+@media screen and (max-width :632px) {
+    .firstsection {
+        display: block;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-heading {
+        padding-bottom: 15px;
+        font-size: 1rem;
+
+    }
+
+
+
+    .rightsection img {
+        width: auto;
+    }
+
+    #skills {
+        height: 72vh;
+    }
+
+    header nav {
+        height: fit-content;
+
+    }
+
+    nav .left {
+        font-size: 1.5rem;
+
+    }
+
+    nav ul {
+        font-size: 1rem;
+    }
+
+    .leftsection {
+        font-size: 1.5rem;
+    }
+
+    main hr {
+        margin: 30px auto;
+    }
+
+    footer {
+        border-top: 2px dashed white;
+        border-bottom: 2px dashed white;
+        border-radius: 0px;
+    }
+
+    footer h1 {
+        font-size: 15vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .secondsection {
+        height: 92vh;
+    }
+
+    #skills {
+        height: 92vh;
+        justify-content: center;
+
+    }
+
+
+}
+
+@media screen and (max-width:530px) {
+    .secondsection {
+        height: 110vh;
+    }
+
+    #skills {
+        height: 110vh;
+        justify-content: center;
+        margin-top: -157px;
+        margin-bottom: -150px;
+    }
+
+
+}
+
+@media screen and (max-width:430px) {
+    .secondsection {
+        height: 125vh;
+    }
+
+    #skills {
+        height: 125vh;
+        justify-content: center;
+        margin-top: -157px;
+        margin-bottom: -150px;
+    }
+
+
+
+}

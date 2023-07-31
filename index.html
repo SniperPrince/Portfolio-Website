@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="responsive.css" type="text/css">
+  </head>
+  <header>
+    <nav>
+      <div class="left">&lt;Chandan's Portfolio&gt;</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, I'm <span class="purple">Chandan Sharma</span>
+        <div>and I am a passionate</div>
+
+        <span id="element"></span>
+      </div>
+
+      <div class="rightsection">
+        <img src="web.jpeg" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section id="about" class="secondsection">
+      <div class="section-heading"><h1>About</h1></div>
+
+      <div id="self-intro">
+        <p class="intro">
+          Hi, my name is Chandan Sharma. I am a 4th year student of Electronics
+          and communication Engineering at Guru Nanak Dev University,Amritsar,
+          Punjab. I am interested in Web Development mainly Front end
+          Development. Pursuing ECE has repeatedly exposed me to a new culture
+          and through this I am fortunate enough to meet diverse group of
+          people. This has made me able to quickly adapt to changes and gain a
+          broader perspective. I am always curious about things and enjoy
+          learning. I like to solve problems and fix errors. I am a detail
+          oriented person and keep my goals and tasks organised to maintain
+          productivity.
+          <br />
+          <br />
+          I am hardworking and dedicated team player passionate about
+          implementing and launching new projects. Ever since I wrote my first
+          program in Python, I have been obsessed with the idea of using
+          software to solve practical problems. Software Engineering is a
+          never-ending puzzle that I am passionately engaged in solving. I
+          believe in the power of programming to transform and improve the lives
+          of people around the world. I believe that the skills that I have
+          attained from the dynamic environment and competitive university life
+          define me and I am looking forward to implemementing and polishing
+          them in any opportunity that I receive.
+        </p>
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="skills">
+      <!-- Heading -->
+      <div class="section-heading">
+        <h1>Skills</h1>
+      </div>
+      <!-- Skills Container -->
+      <div id="skills-container">
+        <div class="skill-progress">
+          <div id="skill-1" class="fourty-percent">
+            <div class="skill-name">HTML</div>
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div id="skill-2" class="fourty-percent">
+            <div class="skill-name">CSS</div>
+          </div>
+        </div>
+
+        <div class="skill-progress">
+          <div id="skill-3" class="fourty-percent">
+            <div class="skill-name">Javascript</div>
+          </div>
+        </div>
+
+        <div class="skill-progress">
+          <div id="skill-4" class="eighty-five-percent">
+            <div class="skill-name">Java</div>
+          </div>
+        </div>
+        <div class="skill-progress">
+          <div id="skill-5" class="eighty-five-percent">
+            <div class="skill-name">DS/ALGO</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="container" id="contact-me">
+      <div class="section-heading"><h1>Contact-me</h1></div>
+      <div></div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="citations">
+      <ul>
+        <li>
+          <a
+            href="https://www.flaticon.com/free-icons/linkedin"
+            title="linkedin icons"
+            target="_blank"
+            >LINKEDIN ICONS CREATED BY RIAJULISLAM</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.flaticon.com/free-icons/github"
+            title="github icons"
+            >GITHUB ICONS CREATED BY RIAJULISLAM</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.flaticon.com/free-icons/instagram"
+            title="instagram icons"
+            target="_blank"
+            >INSTAGRAM ICONS CREATED BY PIXEL PERFECT</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.flaticon.com/free-icons/facebook"
+            title="facebook icons"
+            target="_blank"
+            >FACEBOOK ICONS CREATED BY PIXEL PERFECT</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="links">
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/chandan-sharma-4472131ba/"
+            target="_blank"
+            title="LinkedIn Page"
+            ><img src="./Images/linkedin.png" alt="LinkedIn"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/SniperPrince"
+            title="Github"
+            target="_blank"
+            ><img src="./Images/github.png" alt="Github"
+          /></a>
+        </li>
+        <li>
+          <a href="" target="_blank" title="Instagram"
+            ><img src="./Images/instagram.png" alt="Instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="" target="_blank" title="Facebook"
+            ><img src="./Images/facebook.png" alt="Facebook"
+          /></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Java Coder", "Front-End developer", "Tech-Enthusiast"],
+      typeSpeed: 50,
+    });
+  </script>
+  <body></body>
+</html>
